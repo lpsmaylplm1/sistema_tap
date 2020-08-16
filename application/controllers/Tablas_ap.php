@@ -1,5 +1,5 @@
 <?php
-//Testload
+//Test_load
 if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 
