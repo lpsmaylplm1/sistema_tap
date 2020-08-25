@@ -22,7 +22,7 @@
 								<a href="javascript:loadURL()" class="waves-effect waves-light btn-large  orange darken-4 " id="ver_tablas"><i class="material-icons" style="vertical-align: -6px">pageview</i> Ver tabla de aplicabilidad creada</a>
 
 							<?php } else {  ?>
-								<a href="#!" class="waves-effect waves-light btn-large  green darken-4 " id="iniciar_tabla"><i class="material-icons"  style="vertical-align: -6px">add_to_photos</i> Iniciar / continuar Registro de tabla de aplicabilidad</a>
+								<a href="#!" class="waves-effect waves-light btn-large  green darken-4 " id="iniciar_tabla"><i class="material-icons"  style="vertical-align: -6px">add_to_photos</i> Crear tabla de aplicabilidad <?php echo $this->session->userdata('ejercicio');?></a>
 
 							<?php }
 							?>
